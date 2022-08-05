@@ -1,13 +1,28 @@
-from flask import Blueprint
+from flask import Blueprint, render_template
 
 contacts = Blueprint("contacts", __name__)
 
 
 @contacts.route("/")
 def home():
-    return "contacts list"
+    return render_template('index.html')
 
 
 @contacts.route("/new")
-def add_contacr():
+def add_contact():
     return "saving a contact"
+
+
+@contacts.route("/update")
+def update():
+    return "update a contact"
+
+
+@contacts.route("/delete")
+def delete():
+    return "delete a contact"
+
+
+@contacts.route("/about")
+def about():
+    return render_template("about.html")
