@@ -1,3 +1,7 @@
+{% extends 'layout.html' %}  
+
+{% block content %}
+
 <form action="/update/{{ contact.id }}" method="POST">
   <input
     type="text"
@@ -20,3 +24,5 @@
 
   <button>Save</button>
 </form>
+
+{% endblock %}
