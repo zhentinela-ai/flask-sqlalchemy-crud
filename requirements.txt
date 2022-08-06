@@ -1,0 +1,18 @@
+autopep8==1.6.0
+click==8.1.3
+colorama==0.4.5
+Flask==2.2.1
+Flask-SQLAlchemy==2.5.1
+greenlet==1.1.2
+importlib-metadata==4.12.0
+itsdangerous==2.1.2
+Jinja2==3.1.2
+MarkupSafe==2.1.1
+mysqlclient @ file:///C:/Users/Jesus/Desktop/FAZT%20-%20Programaci%C3%B3n/FULLSTACK/flask-sqlalchemy-crud/mysql/mysqlclient-1.4.6-cp37-cp37m-win_amd64.whl
+pycodestyle==2.9.1
+python-dotenv==0.20.0
+SQLAlchemy==1.4.39
+toml==0.10.2
+typing_extensions==4.3.0
+Werkzeug==2.2.1
+zipp==3.8.1
